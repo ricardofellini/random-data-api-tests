@@ -1,0 +1,293 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "id": 3954,
+      "uid": "8dc5cb25-1182-49ef-9cc1-47185fa447ee",
+      "city": "Port Claudside",
+      "street_name": "Collin Wells",
+      "street_address": "7623 Botsford Turnpike",
+      "secondary_address": "Apt. 613",
+      "building_number": "245",
+      "mail_box": "PO Box 5136",
+      "community": "Royal Estates",
+      "zip_code": "18096",
+      "zip": "76187",
+      "postcode": "44365",
+      "time_zone": "Asia/Irkutsk",
+      "street_suffix": "Junction",
+      "city_suffix": "borough",
+      "city_prefix": "South",
+      "state": "Oregon",
+      "state_abbr": "CA",
+      "country": "Papua New Guinea",
+      "country_code": "AO",
+      "latitude": 79.37773281196871,
+      "longitude": -159.84212494545162,
+      "full_address": "43493 Lexie Cove, Benberg, SD 47718"
+    }
+  ],
+  "required": [
+    "id",
+    "uid",
+    "city",
+    "street_name",
+    "street_address",
+    "secondary_address",
+    "building_number",
+    "mail_box",
+    "community",
+    "zip_code",
+    "zip",
+    "postcode",
+    "time_zone",
+    "street_suffix",
+    "city_suffix",
+    "city_prefix",
+    "state",
+    "state_abbr",
+    "country",
+    "country_code",
+    "latitude",
+    "longitude",
+    "full_address"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        3954
+      ]
+    },
+    "uid": {
+      "$id": "#/properties/uid",
+      "type": "string",
+      "title": "The uid schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "8dc5cb25-1182-49ef-9cc1-47185fa447ee"
+      ]
+    },
+    "city": {
+      "$id": "#/properties/city",
+      "type": "string",
+      "title": "The city schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Port Claudside"
+      ]
+    },
+    "street_name": {
+      "$id": "#/properties/street_name",
+      "type": "string",
+      "title": "The street_name schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Collin Wells"
+      ]
+    },
+    "street_address": {
+      "$id": "#/properties/street_address",
+      "type": "string",
+      "title": "The street_address schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "7623 Botsford Turnpike"
+      ]
+    },
+    "secondary_address": {
+      "$id": "#/properties/secondary_address",
+      "type": "string",
+      "title": "The secondary_address schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Apt. 613"
+      ]
+    },
+    "building_number": {
+      "$id": "#/properties/building_number",
+      "type": "string",
+      "title": "The building_number schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "245"
+      ]
+    },
+    "mail_box": {
+      "$id": "#/properties/mail_box",
+      "type": "string",
+      "title": "The mail_box schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "PO Box 5136"
+      ]
+    },
+    "community": {
+      "$id": "#/properties/community",
+      "type": "string",
+      "title": "The community schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Royal Estates"
+      ]
+    },
+    "zip_code": {
+      "$id": "#/properties/zip_code",
+      "type": "string",
+      "title": "The zip_code schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "18096"
+      ]
+    },
+    "zip": {
+      "$id": "#/properties/zip",
+      "type": "string",
+      "title": "The zip schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "76187"
+      ]
+    },
+    "postcode": {
+      "$id": "#/properties/postcode",
+      "type": "string",
+      "title": "The postcode schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "44365"
+      ]
+    },
+    "time_zone": {
+      "$id": "#/properties/time_zone",
+      "type": "string",
+      "title": "The time_zone schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Asia/Irkutsk"
+      ]
+    },
+    "street_suffix": {
+      "$id": "#/properties/street_suffix",
+      "type": "string",
+      "title": "The street_suffix schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Junction"
+      ]
+    },
+    "city_suffix": {
+      "$id": "#/properties/city_suffix",
+      "type": "string",
+      "title": "The city_suffix schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "borough"
+      ]
+    },
+    "city_prefix": {
+      "$id": "#/properties/city_prefix",
+      "type": "string",
+      "title": "The city_prefix schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "South"
+      ]
+    },
+    "state": {
+      "$id": "#/properties/state",
+      "type": "string",
+      "title": "The state schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Oregon"
+      ]
+    },
+    "state_abbr": {
+      "$id": "#/properties/state_abbr",
+      "type": "string",
+      "title": "The state_abbr schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "CA"
+      ]
+    },
+    "country": {
+      "$id": "#/properties/country",
+      "type": "string",
+      "title": "The country schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Papua New Guinea"
+      ]
+    },
+    "country_code": {
+      "$id": "#/properties/country_code",
+      "type": "string",
+      "title": "The country_code schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "AO"
+      ]
+    },
+    "latitude": {
+      "$id": "#/properties/latitude",
+      "type": "number",
+      "title": "The latitude schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0,
+      "examples": [
+        79.37773281196871
+      ]
+    },
+    "longitude": {
+      "$id": "#/properties/longitude",
+      "type": "number",
+      "title": "The longitude schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0,
+      "examples": [
+        -159.84212494545162
+      ]
+    },
+    "full_address": {
+      "$id": "#/properties/full_address",
+      "type": "string",
+      "title": "The full_address schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "43493 Lexie Cove, Benberg, SD 47718"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
